@@ -1,0 +1,41 @@
+
+.solution{
+    padding: 100px 0;
+    width: 100vw;
+    display:flex;
+    
+    }
+    
+    .solution img{
+        width: 420px;
+        height: auto;
+        margin-right: 50px;
+    }
+    
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    
+    .solution-text{
+        width: 550px;
+    }
+    
+    .solution-text h3{
+        font-size: 45px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        color: #11574A;
+    }
+    .solution-text p{
+        letter-spacing: 1px;
+        font-size: 15px;
+       line-height: 28px;
+        margin-bottom: 45px;
+        text-align: left;
+    }

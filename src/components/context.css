@@ -1,0 +1,30 @@
+
+.caremark{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #11574A;
+}
+
+.verify{
+    background-color: hsl(169, 67%, 20%);
+    color: aliceblue;
+    padding: 20px 0x;
+    
+}
+.verify h3{
+    color: aliceblue;
+}
+
+
+.track{
+    margin-bottom: 50px;
+}
+
+.track img{
+    width: 420px;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 90px;
+}
