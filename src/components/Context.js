@@ -47,11 +47,9 @@ your progress and hold you accountable. </p>
     <div className='about-text'>
      <h3> Track your Progress </h3>
 
-       <p> An innovated cost-efficient notification and verification mobile <br/>
-       application that motivates and helps patients to remember  <br/>
-       taking medicine every day on time. Our Solution is designed to fit patients<br/>
-       need for support, motivation, and love.</p>
-    <p>We believe it is the hope and support that brings healing.</p>
+       <p> Adherence is the most important thing to consider when <br/>
+beginning treatment, and The CareMark app will allow you <br/>
+to track your adherence.</p>
     </div>
     </div>
     </section>

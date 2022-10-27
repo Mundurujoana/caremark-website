@@ -10,11 +10,10 @@ const Solution = () => {
     <div className='main'>
     <div className='solution-text'>
      <h3>Our Solution</h3>
-       <p>
-application that motivates and helps patients to remember <br/>
-taking medicine every day on time. Our Solution is designed to fit patients <br/>
+<p> An application that motivates and helps patients to remember <br/>
+taking medicine every day on time. Our Solution is designed to fit patients
 need for support, motivation, and love.<br/>
-We believe it is the hope and support that brings healing.
+We believe it is the hope and support that brings healing.</p>
     </div>
 
     <img src={ about } alt="splash" />

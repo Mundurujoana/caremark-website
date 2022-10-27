@@ -3,17 +3,18 @@
     background-color: #11574A;
     height: 80vh;
     width: 100%;
-    text-align: center;
-}
+    text-align: center;}
 .intro{
     color: rgb(255, 255, 255);
 }
 h1{
     font-size: 100px;
     padding-top: 90px;
+     text-align: center;
 }
 .intro p{
     font-size: 17px;
+    
 }
 
 p{

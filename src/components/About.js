@@ -14,11 +14,12 @@ const About = () => {
     patient in Kenya. Through informed discussions with healthcare <br/>
     providers and TB patients, we believe daily presence in a patient’s<br/>
     life will go a long way to fostering complete adherence to medication.</p>
-    <p>We understand how hard it is to adhere to medication and in particular
-    TB medication with which missing a single day is always a burden and
-    a risk to start medication or die. Our goal is to enable every patient to
-    achieve  successful treatment
-    </p>
+    
+    <p>We understand how hard it is to adhere to medication and in particular<br/>
+    TB medication with which missing a single day is always a burden and<br/>
+    a risk to start medication or die. Our goal is to enable every patient to<br/>
+    achieve  successful treatment</p>
+
     </div>
     </div>
     </section>
