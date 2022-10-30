@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './about.css'
 import rec from './rec.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+  useEffect(()=>{
+    AOS.init({duration: 100})},[])
   return (
-    <section className='about' id="about">
+    <section className='about' id="about" >
     <div className='main'>
-                 <img  className='about-img' src={rec} alt="" />
+                 <img  className='about-img' src={rec} alt="" data-aos="fade-right" data-aos-duration="3000" />
       
     <div className='about-text'>
      <h3>About us</h3>

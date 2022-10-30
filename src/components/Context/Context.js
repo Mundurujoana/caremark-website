@@ -1,18 +1,23 @@
-import React from 'react'
+import { useEffect } from 'react'
 import med from './med.png'
 import track from './track.png'
 import verify from './verify.png'
 import './context.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Context = () => {
+  useEffect(()=>{
+    AOS.init({duration: 3000})},[])
   return (
     <>
-    <div className='caremark'>
+    <div className='caremark' data-aos="fade-up" data-aos-anchor-placement="top-center">
     What you can do with CareMark
     </div>
-        <section className='about'>
+        <section className='about' data-aos="fade-up" data-aos-anchor-placement="top-center">
     <div className='main'>
-                 <img src={med} alt="medication" />
+                 <img src={med} alt="medication" data-aos="fade-left" data-aos-duration="3000" />
       
     <div className='about-text'>
      <h3>Set a reminder </h3>
@@ -26,24 +31,25 @@ const Context = () => {
     </div>
     </section>
 
-    <section className='verify'>
+
+    <section className='verify' data-aos="fade-up" data-aos-anchor-placement="top-center">
     <div className='main'>
     <div className='solution-text'>
-     <h3> Verify </h3>
-     <p> Using the CareMark app, you will be able to verify that <br/>
+     <h3 data-aos="fade-right" data-aos-duration="3000"> Verify </h3>
+     <p data-aos="fade-right" data-aos-duration="3000"> Using the CareMark app, you will be able to verify that <br/>
  you have taken your medication by taking photos of the <br/>
 blister packet so that your Health Care Provider can track <br/>
 your progress and hold you accountable. </p>
     </div>
 
-    <img src={verify} alt="verify" />
+    <img src={verify} alt="verify" data-aos="fade-left" data-aos-duration="3000"/>
 
     </div>
     </section>
 
-        <section className='track'>
+        <section className='track' data-aos="fade-up" data-aos-anchor-placement="top-center" >
     <div className='main'>
-    <img src={track} alt="track" />
+    <img src={track} alt="track" data-aos="fade-right" />
     <div className='about-text'>
      <h3> Track your Progress </h3>
 

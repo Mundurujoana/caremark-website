@@ -1,4 +1,6 @@
-
+.team-mem{
+   overflow-y: hidden;
+}
 
 .title{
     font-size: 45px;
@@ -6,7 +8,6 @@
     text-transform: capitalize;
     color: #11574A;
     margin: 5px 0;
-    
 }
 
 .title::after{

@@ -2,13 +2,14 @@ import React from 'react'
 import "./footer.css";
 import ScrollToTop from "react-scroll-to-top";
 import logo from "./logo-1.png";
-// import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
+
+
 
 const Footer = () => {
   return (
-     <footer class="footer-distributed">
+     <footer className="footer-distributed" id="footer" >
 <ScrollToTop smooth top="20" color='green'  /> 
-<div class="footer-left">
+<div className="footer-left">
 
    <img src={logo} alt="logo" /> 
 
@@ -17,27 +18,27 @@ const Footer = () => {
      <a href="#about"> About </a>.
      <a href="#solution"> Our Solution </a>.
      <a href="#team"> Our Team </a>.
-  </p>
+  </p> 
 </div>
 
-<div class="footer-center">
-
+<div className="footer-center">
+    <div className="common">
   <div>
-    <i class="fa fa-map-marker"></i>
+    <i className="fa fa-map-marker"></i>
     <p><span> P.O Box 22009-00100
 Nairobi </span> Karen Nairobi, Kenya </p>
   </div>
 
   <div>
-    <i class="fa fa-phone"></i>
+    <i className="fa fa-phone"></i>
     <p>+234 775389877</p>
   </div>
 
   <div>
-    <i class="fa fa-envelope"></i>
+    <i className="fa fa-envelope"></i>
     <p><a href="mailto:support@company.com">caremark@info.com</a></p>
   </div>
-
+  </div>
 </div>
 
 <div class="footer-right">

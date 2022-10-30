@@ -1,12 +1,12 @@
 import React from 'react'
-import About from '../components/About';
-import MainSection from '../components/MainSection';
-import Navbar from '../components/Navbar';
-import Solution from '../components/Solution';
-import Works from '../components/Works';
-import Context from './Context';
-import Team from './Team';
-import Footer from './Footer';
+import Navbar from "../components/Navbar/Navbar"
+import MainSection from '../components/Main/MainSection';
+import About from '../components/About/About';
+import Footer from '../components/Footer/Footer';
+import Team from '../components/Team/Team';
+import Solution from '../components/Solution/Solution';
+import Works from '../components/Works/Works';
+import Context from '../components/Context/Context';
 
 const Home= () => {
   return (
@@ -14,15 +14,15 @@ const Home= () => {
         <Navbar />
         <MainSection  />
         <About/>
-        <Solution />
+        <Solution/>
         <Works/>
         <Context/>
-      <hr style={{
+        <hr style={{
     backgroundColor: '#11574A',
     height: 7,
 }}/>
-<Team/>
-<Footer/>
+        <Team/>
+        <Footer/>
     </div>
   )
 }
