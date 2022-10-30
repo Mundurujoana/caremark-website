@@ -19,7 +19,7 @@ const Home= () => {
         <Context/>
         <hr style={{
     backgroundColor: '#11574A',
-    height: 7,
+    height: 2,
 }}/>
         <Team/>
         <Footer/>

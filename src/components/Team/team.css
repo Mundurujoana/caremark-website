@@ -23,7 +23,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 70px 0;
 }
 .team-row-1{
     display: flex;
@@ -63,9 +63,16 @@
     margin: 20px 0;
 }
 
-/* .member p{
+.member p{
     font-size: 15px;
     color: #000000;
     line-height: 1.6;
-    margin-bottom: 30px 0;
-} */
+    margin-top: -30px;
+    letter-spacing: 6px;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 17px;
+}
+
